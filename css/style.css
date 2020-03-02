@@ -1,0 +1,40 @@
+body {
+
+
+}
+
+h1{
+
+
+}
+
+#button {
+	font-family: "Ariel", sans-serif; 
+	font-size: 20px;
+	background-color: yellow;
+}
+
+#circle {
+	height: 50px;
+	width: 50px;
+	background-color: #555;
+	border-radius: 50%;
+}
+
+#square {
+ 	height: 50px;
+ 	width: 50px;
+	background-color: #555;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+
+#start {
+	text-content: center;
+}
