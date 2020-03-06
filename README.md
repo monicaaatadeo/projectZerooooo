@@ -8,13 +8,6 @@
 
  ## How To Play:
 
- 	1. Click **"Start Game"**
- 		- This initializes the game and timer to begin game
- 	2. Once timer has started, quickly click as many shapes as you can
- 	3. After timer is over, the amount of points you receive will be displayed 
- 	4. Press **"Restart Game"** to play again 
-
-
 ## Actual Game
 
 ![images](images/Screen%20Shot%202020-03-06%20at%209.44.50%20AM.png)
