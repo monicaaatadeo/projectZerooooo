@@ -40,7 +40,7 @@ I originally wanted to have a variety of shapes and each shape and size would be
 
 ## Known Bugs
 
-The only known bug that I found was, you can click all the shapes even before pressing the **"Start Game"** button, and all point will log in 
+The only known bug that I found was, you can click all the shapes even before pressing the **"Start Game"** button, and all points will log in even before starting the game. In short, you can win the game before initializing start/timer.
 
 <<<<<<< HEAD
 ## SOURCES:
