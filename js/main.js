@@ -51,9 +51,8 @@ document.querySelector("#button #startGame").addEventListener("click", function(
         clearInterval(startTimer);
         document.querySelector("#countdownTimer").innerHTML = `GAME OVER! YOUR SCORE IS: ${gameScore}`;
   	gameOver = true;
-    }
+    } 
     }, 1000);
-
     console.log(countdownTimer);
 });
 
