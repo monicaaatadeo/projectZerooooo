@@ -2,27 +2,62 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>A Thriving Star!</title>
-</head>
-<body>
-<canvas id="myCanvas" width="100" height="50"></canvas>
+	<title>Shapesszzz</title>
 <script defer src ="js/main.js"></script>
-<link rel="stylesheet" type="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-
-<h1> A Growing Star! </h1>
-
-
-<div class="circle"></div>
-<div class="square"></div>
-<div class="triangle"></div>	
+<body>
+<h1> Shape 'Em </h1>
 
 
 
 
 <div id = "button">
-	<button id = "start">Start Game</button>
-	<button id = "restart">Restart Game</button>
+    <button  id= "startGame">Start Game</button>
+
+	<button id = "restart" onClick="window.location.reload()">Restart Game</button>	
+</div>
+
+<div id= "countdownTimer"></div>
+
+
+<ul>
+	<ul class="one" style="top: 200px;height: 100px;left: 100px;">
+	<li id="s1"><div class = "square"></div></li>
+	<li id="t1"><div class = "triangle"></div></li>
+	<li id="c1"><div class = "circle"></div></li> 
+	<li id="s01"><div class = "square"></div></li>
+	<li id="t01"><div class = "triangle"></div></li>
+	<li id="c01"><div class = "circle"></div></li>     
+	<li id="s001"><div class = "square"></div></li>
+	<li id="t001"><div class = "triangle"></div></li>
+	<li id="c001"><div class = "circle"></div></li>      </ul>
+
+
+	<ul class="two" style="top: 300px;left: 250px;width: 600px;height: 100px">
+	<li id="t2"><div class = "triangle"></div></li>
+	<li id="c2"><div class = "circle"></div></li>
+	<li id="s2"><div class = "square"></div></li>     
+	<li id="t02"><div class = "triangle"></div></li>
+	<li id="c02"><div class = "circle"></div></li>
+	<li id="s02"><div class = "square"></div></li> 
+	<li id="t002"><div class = "triangle"></div></li>
+	<li id="c002"><div class = "circle"></div></li>
+	<li id="s002"><div class = "square"></div></li>      </ul>
+
+
+<ul class="three" style="top: 400px;margin-top: 0px;height: 100px;left: 400px;">		
+	<li id="c3"><div class = "circle"></div></li>
+	<li id="s3"><div class = "square"></div></li>
+	<li id="t3"><div class = "triangle"></div></li>     
+	<li id="c03"><div class = "circle"></div></li>
+	<li id="s03"><div class = "square"></div></li>
+	<li id="t03"><div class = "triangle"></div></li>
+	<li id="c003"><div class = "circle"></div></li>
+	<li id="s003"><div class = "square"></div></li>
+	<li id="t003"><div class = "triangle"></div></li>     </ul>
+</ul>
 
 </body>
 </html>
